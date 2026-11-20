@@ -1,0 +1,3 @@
+ts_utc,request_id,api_key_id,caller_ip,user_agent,endpoint,method,records_returned,status
+2026-08-20T01:00:00Z,REQ-5001,KEY-TB-902,10.20.4.12,TallyBridge-Sync/2.4,/api/v1/vendors/sync,GET,300,200
+2026-08-21T21:14:00Z,REQ-7789,KEY-TB-902,91.132.44.10,python-requests/2.31,/api/v1/vendors/bank-details,PATCH,1,200

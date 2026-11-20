@@ -1,0 +1,5 @@
+employee_id,username,full_name,department,role,status,hire_date,termination_date
+EMP-101,dev.raghavan,Dev Raghavan,Management,General Manager,Active,2009-04-01,
+EMP-108,farah.dsouza,Farah Dsouza,Finance,Senior Accountant,Active,2019-06-15,
+EMP-115,colin.lawson,Colin Lawson,IT,Network Contractor,Active,2022-02-10,
+EMP-142,rohan.menon,Rohan Menon,Finance,Accounts Payable Clerk,Terminated,2023-01-12,2026-06-30

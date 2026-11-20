@@ -1,0 +1,2 @@
+ts_utc,request_id,api_key_id,caller_ip,user_agent,endpoint,method,records_returned,status
+2026-08-21T21:14:00Z,REQ-7789,KEY-TB-902,91.132.44.10,python-requests/2.31,/api/v1/vendors/bank-details,PATCH,1,200

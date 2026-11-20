@@ -1,0 +1,22 @@
+[
+  {
+    "integration": "TallyBridge Connect",
+    "credential_id": "KEY-TB-902",
+    "system": "LedgerOne",
+    "vendor": "TallyBridge",
+    "scope": "read_write_vendors",
+    "owner": "Finance IT",
+    "ip_restriction": "10.20.4.0/24",
+    "status": "Active"
+  },
+  {
+    "integration": "Nightly Reporting",
+    "credential_id": "KEY-REP-101",
+    "system": "LedgerOne",
+    "vendor": "Internal",
+    "scope": "read_only",
+    "owner": "IT",
+    "ip_restriction": "172.16.0.0/16",
+    "status": "Active"
+  }
+]

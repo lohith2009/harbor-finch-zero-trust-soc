@@ -1,0 +1,119 @@
+{
+  "generated_at_utc": "2026-11-19T18:22:20.540434+00:00",
+  "summary": {
+    "total_server_alerts": 4,
+    "owner_notifications_sent": 4,
+    "ip_challenges_logged": 3,
+    "benign_operations_suppressed": 3
+  },
+  "server_broadcasts": [
+    {
+      "timestamp": "2026-08-13 09:10:00+00:00",
+      "severity": "CRITICAL",
+      "category": "POST-OFFBOARDING ACCESS",
+      "actor": "Rohan Menon (rohan.menon)",
+      "ip_address": "172.16.44.19",
+      "geolocation": "Chennai HQ (Internal LAN) (Harbor & Finch Core)",
+      "evidence_ids": "E03:SSO-9102 + E14",
+      "action_taken": "SERVER-WIDE LOCKDOWN + SESSION REVOKED + OWNER NOTIFIED"
+    },
+    {
+      "timestamp": "2026-08-22 18:45:00+00:00",
+      "severity": "HIGH",
+      "category": "FAILED 1-ATTEMPT IP CHALLENGE",
+      "actor": "farah.dsouza",
+      "ip_address": "185.220.101.42",
+      "geolocation": "Hyderabad, IN (External-ASN-185220)",
+      "evidence_ids": "E03:SSO-9388",
+      "action_taken": "ACCOUNT FROZEN + SERVER ALERT BROADCAST + OWNER NOTIFIED"
+    },
+    {
+      "timestamp": "2026-08-21 21:14:00+00:00",
+      "severity": "CRITICAL",
+      "category": "UNAUTHORIZED EXTERNAL API IP + UNAPPROVED VENDOR RECORD MODIFICATION",
+      "actor": "API Key: KEY-TB-902 (/api/v1/vendors/bank-details)",
+      "ip_address": "91.132.44.10",
+      "geolocation": "Mumbai, IN (External-ASN-91132)",
+      "evidence_ids": "E01/E18:REQ-7789 + E04:KEY-TB-902 + E19:CHG-319",
+      "action_taken": "API KEY REVOKED + VENDOR CHANGE QUARANTINED + OWNER NOTIFIED"
+    },
+    {
+      "timestamp": "2026-08-21 21:14:00+00:00",
+      "severity": "CRITICAL",
+      "category": "UNAUTHORIZED EXTERNAL API IP + UNAPPROVED VENDOR RECORD MODIFICATION",
+      "actor": "API Key: KEY-TB-902 (/api/v1/vendors/bank-details)",
+      "ip_address": "91.132.44.10",
+      "geolocation": "Mumbai, IN (External-ASN-91132)",
+      "evidence_ids": "E01/E18:REQ-7789 + E04:KEY-TB-902 + E19:CHG-319",
+      "action_taken": "API KEY REVOKED + VENDOR CHANGE QUARANTINED + OWNER NOTIFIED"
+    }
+  ],
+  "owner_notifications": [
+    {
+      "timestamp": "2026-08-13 09:10:00+00:00",
+      "severity": "CRITICAL",
+      "category": "POST-OFFBOARDING ACCESS",
+      "actor": "Rohan Menon (rohan.menon)",
+      "ip_address": "172.16.44.19",
+      "geolocation": "Chennai HQ (Internal LAN) (Harbor & Finch Core)",
+      "evidence_ids": "E03:SSO-9102 + E14",
+      "action_taken": "SERVER-WIDE LOCKDOWN + SESSION REVOKED + OWNER NOTIFIED"
+    },
+    {
+      "timestamp": "2026-08-22 18:45:00+00:00",
+      "severity": "HIGH",
+      "category": "FAILED 1-ATTEMPT IP CHALLENGE",
+      "actor": "farah.dsouza",
+      "ip_address": "185.220.101.42",
+      "geolocation": "Hyderabad, IN (External-ASN-185220)",
+      "evidence_ids": "E03:SSO-9388",
+      "action_taken": "ACCOUNT FROZEN + SERVER ALERT BROADCAST + OWNER NOTIFIED"
+    },
+    {
+      "timestamp": "2026-08-21 21:14:00+00:00",
+      "severity": "CRITICAL",
+      "category": "UNAUTHORIZED EXTERNAL API IP + UNAPPROVED VENDOR RECORD MODIFICATION",
+      "actor": "API Key: KEY-TB-902 (/api/v1/vendors/bank-details)",
+      "ip_address": "91.132.44.10",
+      "geolocation": "Mumbai, IN (External-ASN-91132)",
+      "evidence_ids": "E01/E18:REQ-7789 + E04:KEY-TB-902 + E19:CHG-319",
+      "action_taken": "API KEY REVOKED + VENDOR CHANGE QUARANTINED + OWNER NOTIFIED"
+    },
+    {
+      "timestamp": "2026-08-21 21:14:00+00:00",
+      "severity": "CRITICAL",
+      "category": "UNAUTHORIZED EXTERNAL API IP + UNAPPROVED VENDOR RECORD MODIFICATION",
+      "actor": "API Key: KEY-TB-902 (/api/v1/vendors/bank-details)",
+      "ip_address": "91.132.44.10",
+      "geolocation": "Mumbai, IN (External-ASN-91132)",
+      "evidence_ids": "E01/E18:REQ-7789 + E04:KEY-TB-902 + E19:CHG-319",
+      "action_taken": "API KEY REVOKED + VENDOR CHANGE QUARANTINED + OWNER NOTIFIED"
+    }
+  ],
+  "ip_challenges": [
+    {
+      "timestamp": "2026-08-10 04:15:00+00:00",
+      "user": "farah.dsouza",
+      "new_ip": "172.16.12.40",
+      "location": "Chennai HQ (Internal LAN)",
+      "attempt_result": "PASSED (1/1 Attempt) - Marked Verified",
+      "evidence_id": "E03:SSO-9001"
+    },
+    {
+      "timestamp": "2026-08-12 06:30:00+00:00",
+      "user": "colin.lawson",
+      "new_ip": "49.207.112.88",
+      "location": "Frankfurt, DE",
+      "attempt_result": "PASSED (1/1 Attempt) - Marked Verified",
+      "evidence_id": "E03:SSO-9045"
+    },
+    {
+      "timestamp": "2026-08-22 18:45:00+00:00",
+      "user": "farah.dsouza",
+      "new_ip": "185.220.101.42",
+      "location": "Hyderabad, IN",
+      "attempt_result": "FAILED (1/1 Attempt) - LOCKDOWN TRIGGERED",
+      "evidence_id": "E03:SSO-9388"
+    }
+  ]
+}

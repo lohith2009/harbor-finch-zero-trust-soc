@@ -1,0 +1,5 @@
+ts_utc,event_id,user,source_ip,city,auth_method,mfa_result,device_id,result
+2026-08-10T04:15:00Z,SSO-9001,farah.dsouza,172.16.12.40,Chennai,Password+MFA,PASS,DEV-FIN-04,SUCCESS
+2026-08-12T06:30:00Z,SSO-9045,colin.lawson,49.207.112.88,Bengaluru,Password+MFA,PASS,DEV-NET-02,SUCCESS
+2026-08-13T09:10:00Z,SSO-9102,rohan.menon,172.16.44.19,Chennai Warehouse,Password,NONE,KIOSK-WH-01,SUCCESS
+2026-08-22T18:45:00Z,SSO-9388,farah.dsouza,185.220.101.42,Frankfurt,Password+MFA,FAIL,UNKNOWN,DENIED

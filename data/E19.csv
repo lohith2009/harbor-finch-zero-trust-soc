@@ -1,0 +1,3 @@
+ts_utc,change_id,vendor_id,vendor_name,field,old_value,new_value,changed_by,channel,approval_ref,source_ip,request_id
+2026-07-31T11:00:00Z,CHG-101,V-204,Southern Hauliers,contact_email,old@sh.in,billing@sh.in,farah.dsouza,UI,APR-2026-07,172.16.12.40,
+2026-08-21T21:14:02Z,CHG-319,V-112,Deccan Fuel Corp,bank_account_no,XXXX-4412,XXXX-9981,KEY-TB-902,API,,91.132.44.10,REQ-7789
